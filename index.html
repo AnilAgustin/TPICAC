@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./images/iconos-imagenes/logo.png">
+  <title>Inicio</title>
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
+      <!-- Logo -->
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./images/iconos-imagenes/logo.png" alt="logo" width="65px">
+          CINEYES
+        </a>
+        <!-- Botón responsive para dispositivos de tamaño menor -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Nav -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav ml-auto pb-2">
+            <li class="nav-item mx-auto p-1 text-center" style="width: 125px;">
+              <a class="nav-link" aria-current="page" href="#estreno">Estreno</a>
+            </li>
+            <li class="nav-item mx-auto p-1 text-center" style="width: 125px;">
+              <a class="nav-link" href="#peliculas">Peliculas</a>
+            </li>
+            <li class="nav-item mx-auto p-1 text-center" style="width: 125px;">
+              <a class="nav-link" href="#series">Series</a>
+            </li>
+            <li class="nav-item mx-auto p-1 text-center" style="width: 125px;">
+              <a class="nav-link" href="#recomendados">Recomendadas</a>
+            </li>
+            <li class="nav-item mx-auto p-1 text-center" style="width: 125px;">
+              <a class="nav-link text-premium" href="premium.html">Premium</a>
+            </li>
+            <li class="nav-item mx-auto p-1 text-center" style="width: 125px;">
+              <a class="nav-link" href="#teLeemos">Te leemos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="position-relative" style="background-color: black;">
+
+    <!-- Section 1 = Estreno -->
+    <section id="estreno">
+    <div class="card text-black border-0">
+      <img src="./images/movies/oppenheimer.jpg" class="card-img img-fluid" alt="oppenheimer">
+      <div class="card-img-overlay">
+        <br>
+        <h1 class="card-title fs-3">Oppenheimer
+          <span class="badge text-bg-warning fs-6 align-middle">New</span>
+          <span class="badge text-bg-info text-black fs-6 align-middle">Premium</span>
+        </h1>
+        <p class="card-text fs-5 mx-auto p-1 mt-3 d-none d-md-block">
+          Durante la Segunda Guerra Mundial, el teniente general Leslie Groves designa al físico J. Robert Oppenheimer
+          para un grupo de trabajo que está desarrollando el Proyecto Manhattan, cuyo objetivo consiste en fabricar la
+          primera bomba atómica.
+        </p>
+        <p class="card-text fs-6 d-none d-md-block"><big class="text-danger">7,6/10</big> 180 minutos 2023</p>
+        <button class="btn btn-primary btn-warning btn-sm mx-auto p-1 mt-3" type="submit"> Ver Ahora </button>
+        <a href="premium.html"><button class="btn btn-info btn-sm mx-auto p-1 mt-3" type="submit"> Hazte Premium </button></a>
+      </div>
+    </div>
+    </section>
+
+    <!-- Section 2 = Peliculas -->
+    <section id="peliculas">
+      <div id="carouselExampleIndicators" class="carousel slide" >
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+    
+        <div class="carousel-inner">
+    
+          <div class="carousel-item active">
+            <img src="./images/movies/batman.jpg" class="d-block w-100" alt="batman">
+            <div class="carousel-caption  text-white">
+              <h1 class="h3">Batman
+                <span class="badge bg-primary custom-fs align-middle">Pelicula</span>
+              </h1>
+              <button class="btn btn-primary btn-warning btn-sm" type="submit"> Ver Ahora </button>
+            </div>
+          </div>
+    
+          <div class="carousel-item">
+            <img src="./images/movies/spiderman_cruzandoelmultiverso.jpg" class="d-block w-100"
+              alt="spiderman_cruzandoelmultiverso">
+            <div class="carousel-caption text-white">
+              <h1 class="h3">Spider-Man: A través del Spider-Verso
+                <span class="badge bg-primary custom-fs align-middle">Pelicula</span>
+              </h1>
+              <button class="btn btn-primary btn-warning btn-sm" type="submit"> Ver Ahora </button>
+            </div>
+          </div>
+    
+          <div class="carousel-item">
+            <img src="./images/movies/barbie.jpeg" class="d-block w-100" alt="barbie">
+            <div class="carousel-caption text-white">
+              <h1 class="h3">Barbie
+                <span class="badge bg-primary custom-fs align-middle">Pelicula</span>
+              </h1>
+              <button class="btn btn-primary btn-warning btn-sm" type="submit"> Ver Ahora </button>
+            </div>
+          </div>
+    
+        </div>
+    
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Section 3 = Series -->
+    <section id="series">
+      <div id="carouselExampleIndicators2" class="carousel slide">
+    
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+    
+        <div class="carousel-inner">
+    
+          <div class="carousel-item active">
+            <img src="./images/series/breakingBad.jpg" class="d-block w-100" alt="breakingBad">
+            <div class="carousel-caption text-white">
+              <h1 class="h3">Breaking Bad
+                <span class="badge bg-success custom-fs align-middle">Serie</span>
+              </h1>
+              <button class="btn btn-primary btn-warning btn-sm" type="submit"> Ver Ahora </button>
+            </div>
+          </div>
+    
+          <div class="carousel-item">
+            <img src="./images/series/peakyBlinders.jpg" class="d-block w-100" alt="peakyBlinders">
+            <div class="carousel-caption text-white">
+              <h1 class="h3">Peaky Blinders
+                <span class="badge bg-success custom-fs align-middle">Serie</span>
+              </h1>
+              <button class="btn btn-primary btn-warning btn-sm" type="submit"> Ver Ahora </button>
+            </div>
+          </div>
+    
+          <div class="carousel-item">
+            <img src="./images/series/friends.jpg" class="d-block w-100" alt="friends">
+            <div class="carousel-caption text-white">
+              <h1 class="h3">F.R.I.E.N.D.S
+                <span class="badge bg-success custom-fs align-middle">Serie</span>
+              </h1>
+              <button class="btn btn-primary btn-warning btn-sm" type="submit"> Ver Ahora </button>
+            </div>
+          </div>
+    
+        </div>
+    
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Section 4 = Recomendados -->
+    <section id="recomendados" class="container-fluid mb-5"><br>
+      <h1 class="text-white text-center">Recomendadas
+      </h1><br>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+
+        <div class="col">
+          <div class="card h-100 border border-secondary">
+            <img src="./images/movies/CODA.jpg" class="card-img-top" alt="CODA">
+            <div class="card-body">
+              <h5 class="card-title">CODA
+                <span class="badge text-bg-warning custom-fs align-middle">Ganadora Oscar 2022</span> <span
+                  class="badge text-bg-primary custom-fs align-middle">Pelicula</span>
+              </h5>
+              <p class="card-text"> Ruby, de 17 años, es la única persona capaz de oír de su familia. Amante de la
+                música, Ruby tendrá que elegir entre tratar de salvar el negocio pesquero familiar o dedicarse por
+                completo a su pasión artística.</p>
+            </div>
+            <button class="btn btn-primary btn btn-warning" type="submit"> Ver Ahora </button>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 border border-secondary">
+            <img src="./images/movies/interestellar.png" class="card-img-top" alt="interestellar">
+            <div class="card-body">
+              <h5 class="card-title">Interestellar
+                <span class="badge text-bg-primary custom-fs align-middle">Pelicula</span>
+              </h5>
+              <p class="card-text">Gracias a un descubrimiento, un grupo de científicos y exploradores, encabezados por
+                Cooper, se embarcan en un viaje espacial para encontrar un lugar con las condiciones necesarias para
+                reemplazar a la Tierra y comenzar una nueva vida allí.</p>
+            </div>
+            <button class="btn btn-primary btn btn-warning" type="submit"> Ver Ahora </button>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 border border-secondary">
+            <img src="./images/movies/pulpFiction.jpeg" class="card-img-top" alt="pulpFiction">
+            <div class="card-body">
+              <h5 class="card-title">Pulp Fiction
+                <span class="badge text-bg-primary custom-fs align-middle">Pelicula</span>
+              </h5>
+              <p class="card-text">La vida de un boxeador, dos sicarios, la esposa de un gánster y dos bandidos se
+                entrelaza en una historia de violencia y redención.</p>
+            </div>
+            <button class="btn btn-primary btn btn-warning" type="submit"> Ver Ahora </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5 = Form -->
+    <section id="teLeemos" class="position-relative w-75 mx-auto pt-3 pb-3" style="background-image: url('./images/iconos-imagenes/backForm.png'); background-position: center center; background-size: cover;">
+      <h1 class="text-white text text-center">Te leemos</h1>
+      <form class="text-white mb-5">
+          <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre:</label>
+              <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+          </div>
+          <div class="mb-3">
+              <label for="email" class="form-label">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="Ingresa tu email">
+          </div>
+          <div class="mb-3">
+              <label for="mensaje" class="form-label">Que te gustaria ver?</label>
+              <textarea class="form-control" rows="4" cols="50" style="resize: none;" id="mensaje" rows="4" placeholder="Dejanos tu opinion aqui"></textarea>
+          </div>
+          <button type="submit" class="btn btn-success">Enviar</button>
+      </form>
+    </section>
+    
+  </main>
+
+  <footer class="container-fluid" style="background-color: black;">
+    <div>
+      <div class="row p-5 bg-custom text-white">
+        <div class="col-xs-12 col-md-4 col-lg-4">
+          <p class="h3">
+            CINEYES
+          </p>
+          <p>
+            Córdoba, Argentina.
+          </p>
+        </div>
+        <div class="col-xs-12 col-md-4 col-lg-4">
+          <p class="h5">
+            Links
+          </p>
+          <p>
+            <a class="text-secondary text-decoration-none" href="#" style="text-align: right;">Terms & Conditions</a>
+          </p>
+          <p>
+            <a class="text-secondary text-decoration-none" href="#"> Privacy Policy</a>
+          </p>
+        </div>
+        <div class="col-xs-12 col-md-4 col-lg-4">
+          <p class="h5">
+            Contacto
+          </p>
+          <p>
+            <a class="text-secondary text-decoration-none" href="https://www.instagram.com/agustiinanil/" style="text-align: right;">Instagram</a>
+          </p>
+        </div>
+        <div class="col-xs-12"><br>
+          <p class="text-white text-center">
+            Copyright © 2023 CINEYES. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>

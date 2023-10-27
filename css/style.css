@@ -1,0 +1,21 @@
+.img-fluid{
+    opacity: .85;
+}
+.custom-fs{
+    font-size: 12px;
+}
+.logo-fondo{
+    opacity: .1;
+}
+.bg-custom{
+    background-color: rgb(15, 15, 15);
+}
+.text-premium{
+    color: rgb(187, 172, 90);
+}
+.bg-box{
+    background-color: rgb(255, 255, 255);
+}
+.text-bg-custom{
+    background-color: rgb(156, 23, 233);
+}
